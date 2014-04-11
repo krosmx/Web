@@ -1,6 +1,3 @@
-Web
-===
-
 <html>
      <head>
      </head>
