@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "Quicksand-Bold";
+    src:url(customized-fonts/Quicksand-Bold.otf);
+}
+
+body{
+    min-width: 400px;
+}
+
+div,a{
+    font-family: "Quicksand-Bold";
+    font-size: 2.2rem;
+}
+.row{
+    margin:0 !important;
+}
+.navbar.navbar-default{
+    background-image: -o-linear-gradient(bottom, #00000B 0%, #141b34 100%);
+    background-image: -moz-linear-gradient(bottom, #00000B 0%, #141b34 100%);
+    background-image: -webkit-linear-gradient(bottom, #00000B 0%, #141b34 100%);
+    background-image: -ms-linear-gradient(bottom, #00000B 0%, #141b34 100%);
+    background-image: linear-gradient(to bottom, #00000B 0%, #141b34 100%);
+    border:0;
+    border-radius: 0;
+    color:white;
+    margin-bottom: 0;
+}
+.navbar.navbar-default .title{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.main-container .content-container .wording-container{
+    min-height:300px;
+}
+.main-container .content-container .wording-container .main-logo{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+.main-container .content-container .menu{
+    background:#970430;
+    font-size: 1.6rem;
+    min-height: 500px;
+    padding: 0 0 5px 0;
+}
+.main-container .content-container .menu .accordion .accordion-group .accordion-heading{
+    background:#141b34;
+    color:white;
+    text-align: center;
+}
+.main-container .content-container .menu .accordion .accordion-group .list-group{
+    padding-bottom:30px;
+}
+.main-container .content-container .menu .accordion .accordion-group .accordion-heading a{
+    color:white;
+    display: block;
+}
+.main-container .content-container .menu .accordion .accordion-group .accordion-body ul li{
+    background: #970430;
+    border:0;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 5px 0 5px 0;   
+}
+.main-container .content-container .menu .accordion .accordion-group .accordion-body ul li:hover{
+    background: black;
+    padding-left: 20px;
+    box-shadow: black 5px 5px 5px;
+}
+footer{
+    display: block;    
+    width: 100%;
+}
+footer div{
+    min-height: 60px;   
+}
+
+footer .content-container{
+    background: #970430;
+}
+footer .degree-container{
+    background: #ffcc07;
+}
+
+/***Media Queries***/
+@media (max-width: 766px){
+    .main-container .content-container .wording-container .main-logo{
+        width: 50%;
+    }
+    .main-container .content-container .menu{
+        min-height: 0;
+        height: auto;
+    }
+    footer div{
+        min-height: 30px;   
+    }
+}

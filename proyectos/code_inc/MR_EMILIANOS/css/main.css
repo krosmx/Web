@@ -1,0 +1,241 @@
+
+@font-face {
+	font-family: "Quicksand-Regular";
+	src: url(fonts/Quicksand-Regular.otf) format("truetype");
+
+	font-family: "Quicksand-Bold";
+	src: url(fonts/Quicksand-Bold.otf) format("truetype");
+
+	font-family: "GoodDog";
+	src: url(fonts/GoodDog.otf) format("truetype");
+}
+
+body{
+	font-family: "GoodDog";
+	height:100%;
+	width: 100%;
+
+	background: -o-linear-gradient(bottom, #FAF441 0%, #F09400 100%);
+	background: -moz-linear-gradient(bottom, #FAF441 0%, #F09400 100%);
+	background: -webkit-linear-gradient(bottom, #FAF441 0%, #F09400 100%);
+	background: -ms-linear-gradient(bottom, #FAF441 0%, #F09400 100%);
+	background: linear-gradient(to bottom, #FAF441 0%, #F09400 100%);
+}
+
+.navigation-bar{
+	border:0;
+	box-shadow: black 0 5px 50px;
+	background:red;
+	height: 70px;
+	text-align:center;
+}
+
+.navigation-bar img{
+	display:inline-block;
+	float: left;
+	margin-left: 200px;
+	width:200px;
+}
+
+.navigation-bar .header-menu-section{
+	display:inline-block;
+	float: left;
+	margin-top: 5px;
+}
+
+.navigation-bar .header-menu-section .item-list li{
+	display: none;
+}
+
+.navigation-bar .header-menu-section .item-list li{
+	background:transparent;
+	border:0;
+	display:inline-block;
+	width:145px;
+}
+
+.navigation-bar .header-menu-section .item-list li{
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-ms-transition: all .5s ease-in;
+}
+
+.navigation-bar .header-menu-section .item-list li:hover{
+	border-radius: 6px;
+	box-shadow: black 5px 5px 15px;
+}
+
+.navigation-bar .header-menu-section .item-list li a{
+	color:white;
+	font-family: "GoodDog";
+	font-size:2.5rem;
+}
+
+.navigation-bar .header-menu-section .item-list li a:hover{
+	text-decoration:none;
+	text-shadow: black 5px 5px 5px;
+}
+
+.main-container{
+	font-size: 2.5rem;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.main-containter .background-phrasal{
+	/*background: url(../images/background_phasal.png);*/
+
+	margin: 0;
+	display: inline-block;;
+	padding-top:160px;
+}
+
+.main-containter .background-phrasal.left{
+	margin-left:0;
+}
+
+.main-containter .background-phrasal.right{
+}
+
+.main-containter .container-section{
+	background: url(../images/background-table.png) fixed 143px;
+	display: inline-block;
+	height: auto;
+	padding: 160px 0 0 0;
+	text-align: center;
+}
+
+.main-containter .container-section .carousel{
+	width:80%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.main-containter .container-section .carousel .carousel-control{
+	line-height: 0.6;
+	font-size: 51px;
+}
+
+.main-containter .container-section .carousel .item img{
+	width: 100%;
+}
+
+.main-containter .background-phrasal{
+	min-height: 851px;
+}
+
+.main-containter .container-section .carousel .main-title-carousel{
+	color:white;
+	background: #27c448;
+	font-family: "GoodDog";
+	font-size: 2.5rem;
+}
+
+.main-containter .container-section .wording-content{
+	color: white;
+	font-size: 2.5rem;
+	margin: 0 auto;
+}
+
+.main-containter .container-section .wording-content .title{
+	background: #27c448;
+	border-radius: 6px;
+	font-family: "GoodDog";
+	font-size: 2.8rem;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.main-containter .container-section .wording-content .description{
+	font-size: 2.5rem;
+	margin-bottom: 28px;
+	padding: 20px;
+}
+
+footer{
+	background:red;
+	margin:0;
+	padding:0;
+}
+
+footer .list-group{
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .list-group .list-group-item{
+	background: red;
+	border:0;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 150px;
+}
+
+footer .list-group .list-group-item img{
+	width:50%;
+}
+
+footer .list-group .list-group-item .description span{
+	color:white;
+	display:block;
+	font-size: 1.5rem;
+}
+
+/***MEDIA QUERIES ***/
+@media(max-width: 1160px){
+	.navigation-bar{
+		height: 110px;
+	}
+	.navigation-bar img{
+		float:center;
+		margin:0;
+		width:150px;
+	}
+	.navigation:hover{
+		width:200px;
+	}
+	.navigation-bar .header-menu-section{
+		float:center;
+	}
+	.main-container{
+		margin-top: 110px;
+	}
+}
+
+@media(max-width: 906px){
+	.navigation-bar{
+		height: 230px;
+	}
+	.main-containter .container-section,
+	.main-containter .background-phrasal{
+		margin-top: 120px;
+	}
+}
+
+@media(max-width: 758px){
+	.navigation-bar{
+		height: 280px;
+	}
+}
+
+@media(max-width: 770px){
+	.main-containter .container-section{
+		margin-top: 170px;
+		width: 100%;
+	}
+	.main-containter .background-phrasal{
+		display: none !important;
+	}
+}
+
+@media(max-width: 600px){
+	.main-containter .background-phrasal{
+		display: none;
+	}
+}
+
+@media(max-width: 458px){
+	.navigation-bar{
+		height: 320px;
+	}
+}
