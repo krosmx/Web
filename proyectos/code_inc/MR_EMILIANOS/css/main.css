@@ -211,7 +211,7 @@ footer .list-group .list-group-item .description span{
 		margin-top: 120px;
 	}
 }
-
+/*
 @media(max-width: 758px){
 	.navigation-bar{
 		height: 280px;
@@ -227,15 +227,37 @@ footer .list-group .list-group-item .description span{
 		display: none !important;
 	}
 }
-
-@media(max-width: 600px){
-	.main-containter .background-phrasal{
-		display: none;
+*/
+@media (max-width:906px) and (min-width: 769px){
+	.navbar.navigation-bar{
+		height: auto;
+		padding: 20px;
 	}
+	.navbar.navigation-bar img{
+		float: left;
+		width: 15%;
+	}
+	.navbar.navigation-bar .header-menu-section{
+		width: 75%;	
+	}
+
+}
+@media (max-width:768px){
+
+	.navbar.navigation-bar{
+		height: auto;
+		padding: 20px 0;
+	}
+	.navbar.navigation-bar img{
+		width: 10%;
+		float: left;
+		margin: 0;
+	}
+	.navbar.navigation-bar .header-menu-section{
+		width: 90%;
+		float: left;
+	}
+
 }
 
-@media(max-width: 458px){
-	.navigation-bar{
-		height: 320px;
-	}
-}
+
