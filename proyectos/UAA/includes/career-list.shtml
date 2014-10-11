@@ -6,8 +6,8 @@
 			</a>
 		</div>
 		<div id="collapseOne" class="accordion-body collapse">
-			<ul class="accordion-inner list-group">
-				<li class="list-group-item" data-name="">
+			<ul id="career" class="accordion-inner list-group">
+				<li class="list-group-item" data-name="bioquimica">
 					Ingeniería Bioquímica
 				</li>
 				<li class="list-group-item" data-name="">
