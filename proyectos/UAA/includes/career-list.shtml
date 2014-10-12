@@ -1,0 +1,110 @@
+<div class="accordion" id="accordion2">
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" title="Presiona para despleglar lista">
+				Centro de Ciencias Básicas
+			</a>
+		</div>
+		<div id="collapseOne" class="accordion-body collapse">
+			<ul id="career" class="accordion-inner list-group">
+				<li class="list-group-item" data-name="bioquimica">
+					Ingeniería Bioquímica
+				</li>
+				<li class="list-group-item" data-name="">
+					Ingeniería en Computación Inteligente
+				</li>
+				<li class="list-group-item" data-name="">
+					Ingeniería en Electrónica
+				</li>
+				<li class="list-group-item" data-name="">
+					Ingeniería en Sistemas Computacionales
+				</li>
+				<li class="list-group-item" data-name="">
+					Ingeniería Industrial Estadístico
+				</li>
+				<li class="list-group-item" data-name="">
+					Licenciatura en Análisis Químico-Biológicos
+				</li>
+				<li class="list-group-item" data-name="biologia.shtml">
+					Licenciatura en Biología
+				</li>
+				<li class="list-group-item" data-name="">
+					Licenciatura en Biotecnología
+				</li>
+				<li class="list-group-item" data-name="">
+					Licenciatura en Ciencias Ambientales
+				</li>
+				<li class="list-group-item" data-name="">
+					Licenciatura en Matemáticas Aplicadas
+				</li>
+				<li class="list-group-item" data-name="">
+					Licenciatura en Informática y Tecnologías Computacionales
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" title="Presiona para despleglar lista">
+				Centro de Ciencias de la Salud
+			</a>
+		</div>
+		<div id="collapseTwo" class="accordion-body collapse">
+			<ul class="accordion-inner list-group">
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Cultura Física y Deporte
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Enfermería
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Nutrición
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Optometría
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Terapia Física
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Médico Cirujano
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Médico Estomatólogo
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" title="Presiona para despleglar lista">
+				Centro de Ciencias del Diseño y de la Construcción 
+			</a>
+		</div>
+		<div id="collapseThree" class="accordion-body collapse">
+			<ul class="accordion-inner list-group">
+				<li class="list-group-item" src="data-name=""">
+					Arquitectura
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Ingeniería Civil
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Diseño de Interiores
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Diseño de Moda en Indumentaria y Textiles
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Diseño Gráfico
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Diseño Industrial
+				</li>
+				<li class="list-group-item" src="data-name=""">
+					Licenciatura en Urbanismo
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

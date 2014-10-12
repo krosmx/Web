@@ -1,0 +1,52 @@
+<footer class="row">
+	<ul class="list-group">
+		<li class="list-group-item">
+			<img src="images/logo-mini.png" alt="Emiliano´s Apata" class="left">
+			<div class="description right">
+				<span>Mr. Emiliano’s</span>
+				<span>Teléfono: (818) 339 58 49</span>
+				<span>Representante Legal: Daniel Hernández de Lara</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<img src="images/logo-corp.jpg" alt="Code Dream" class="left">
+			<div class="description right">
+				<span>Code Dream</span>
+				<span>Teléfono: 449 163 19 03</span>
+				<span>Representante Legal: Marco Antonio Dominguez</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<img src="images/logo-mini.png" alt="Emiliano´s Apata" class="left">
+			<div class="description right">
+				<span>Mr. Emiliano’s</span>
+				<span>Teléfono: (818) 339 58 49</span>
+				<span>Representante Legal: Daniel Hernández de Lara</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<img src="images/logo-corp.jpg" alt="Code Dream" class="left">
+			<div class="description right">
+				<span>Code Dream</span>
+				<span>Teléfono: 449 163 19 03</span>
+				<span>Representante Legal: Marco Antonio Dominguez</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<img src="images/logo-mini.png" alt="Emiliano´s Apata" class="left">
+			<div class="description right">
+				<span>Mr. Emiliano’s</span>
+				<span>Teléfono: (818) 339 58 49</span>
+				<span>Representante Legal: Daniel Hernández de Lara</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<img src="images/logo-corp.jpg" alt="Code Dream" class="left">
+			<div class="description right">
+				<span>Code Dream</span>
+				<span>Teléfono: 449 163 19 03</span>
+				<span>Representante Legal: Marco Antonio Dominguez</span>
+			</div>
+		</li>
+	</ul>
+</footer>
